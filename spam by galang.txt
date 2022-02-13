@@ -1,0 +1,23 @@
+import requests
+import time,os,sys
+
+#clear
+os.system('clear')
+
+# logo
+print  ('        WARNING         ')
+print  ('JANGAN DI SALAH GUNAKAN ')
+print ('---------------------------')
+print ('[+]  Creator :GALANG A.P   ')
+print ('[+] whatsapp :083111962790 ')
+print ('[+]    squad :HACKER 7A    ')
+print ('---------------------------')
+print ('\n[+] Nomor Di Awali 8xxxxx ')
+
+# Run nomor
+nomor = input('[+] Nomor Target : ')
+req=requests.get('https://ainxbot-sms.herokuapp.com/api/sp>
+if 'terkirim' in req:
+     print ('\n[✓] Spam Sukses')
+else:
+     print('\n[!] spam gagal')
